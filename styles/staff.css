@@ -1,0 +1,39 @@
+.search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.staff-table {
+    margin-top: 20px;
+    background-color: #2a2a40;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.in-operation {
+    background-color: #c0392b;
+    color: white;
+}
+
+.available {
+    background-color: #27ae60;
+    color: white;
+}
+
+.standby {
+    background-color: #e67e22;
+    color: white;
+}
+
+
