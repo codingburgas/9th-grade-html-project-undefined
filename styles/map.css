@@ -1,0 +1,111 @@
+.main {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.header h2 {
+  color:#fff;
+}
+
+.mapCard {
+  background-color: #16223a;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mapCard .mapHeader {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#map {
+  flex: 1;
+    border-radius: 10px;
+    min-height: 400px;
+    width: 100%;
+}
+
+.topControls {
+  display: flex;
+  gap: 1rem;
+}
+
+.topControls button {
+  background: #1f2a44;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.topControls button:hover {
+    background: #2a3655;
+    transform: translateY(-1px);
+}
+
+.topControls button svg {
+    transition: transform 0.3s ease;
+}
+
+.topControls button:hover svg {
+    transform: scale(1.1);
+}
+
+.topControls button:nth-child(2):hover svg {
+    animation: spin 0.6s linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.checkboxes {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.legend {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
