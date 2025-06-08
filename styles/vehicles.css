@@ -1,0 +1,125 @@
+.pageHeading {
+    color:#fff;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:30px;
+}
+
+.controls input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  background-color: var(--secondary-clr);
+  color:var(--text-clr);
+}
+
+.controls button {
+  background: #1f2a44;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.vehicleGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  margin-left:20px;
+  row-gap:20px;
+}
+
+.vehicleCard {
+  background-color: var(--secondary-clr);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width:360px;
+  height:225px;
+}
+
+.vehicleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vehicleHeader h3 {
+  margin-bottom: 5px;
+}
+
+.status {
+  background-color: #14532D;
+  color: #A2DEB7;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 15px;
+  margin-bottom:30px;
+}
+
+.assignButton {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #334155;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.assignButton:hover {
+  background-color: #475569;
+}
+
+.cardHeading {
+    color:#fff;
+}
+
+.headingDiv {
+    display:flex;
+    flex-direction: row;
+}
+
+.headingDiv span {
+    display: flex;
+    justify-content: center;
+    background-color: #374151;
+    border-radius:50px;
+    height:50px;
+    width:50px;
+    align-items: center;
+}
+
+.vehicleIcon {
+    fill:#DE4344;
+}
+
+.headingDiv div {
+    margin-left:15px;
+}
+
+.headingDiv div p {
+    font-size:14px;
+}
+
+.vehicleDetails {
+    display:flex;
+    justify-content:space-between;
+}
+.vehicleDetails .detailValue {
+    color:#fff;
+}
