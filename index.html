@@ -81,19 +81,64 @@
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
             </a>
-        </div>
-        <div class="container">
-            <h2>Hello World</h2>
-            <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-        </div>
-        <div class="container">
-            <h2>Hello World</h2>
-            <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-        </div>
-        <div class="container">
-            <h2>Hello World</h2>
-            <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-        </div>
-    </main>
+       <div class="main">
+        <header>
+            <h1>Fire Safety and Civil Protection</h1>
+            <button class="report-btn">Report Incident</button>
+        </header>
+        <section class="dashboard">
+            <div class="card red">
+                <h2>Active Incidents</h2>
+                <p>2</p>
+            </div>
+            <div class="card green">
+                <h2>Available Teams</h2>
+                <p>1</p>
+            </div>
+            <div class="card blue">
+                <h2>Teams in Operation</h2>
+                <p>2</p>
+            </div>
+            <div class="card yellow">
+                <h2>Total Vehicles</h2>
+                <p>8</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="incidents">
+                <h3>Recent Incidents</h3>
+                <table>
+                    <thead>
+                        <tr><th>Type</th><th>Location</th><th>Date</th><th>Status</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Building Fire</td><td>56 Drujba, Sofiya</td><td>6/10/2025, 11:30:00 AM</td><td class="status active">Active</td></tr>
+                        <tr><td>Vehicle Accident</td><td>56 Tsarigradska, Vuzrajdane, Burgas</td><td>8/7/2024, 5:15:00 PM</td><td class="status active">Closed</td></tr>
+                        <tr><td>Medical Emergency</td><td>12 Emona Sarafovo, Burgas</td><td>6/13/2024, 10:45:00 PM</td><td class="status closed">Closed</td></tr>
+                    </tbody>
+                </table>
+                <button class="view-btn">View All Incidents</button>
+            </div>
+            <div class="announcements">
+                <h3>Announcements</h3>
+                <div class="announcement">
+                    <h4>Training Exercise</h4>
+                    <p>Scheduled training exercise for all teams on July 15th at Central Station.</p>
+                   
+                </div>
+                <div class="announcement">
+                    <h4>Weather Alert</h4>
+                    <p>High winds expected in the region. All teams on standby for potential incidents.</p>
+                   
+                </div>
+                <div class="announcement">
+                    <h4>New Equipment</h4>
+                    <p>New firefighting equipment has arrived at Station 2. Training scheduled next week.</p>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

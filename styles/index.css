@@ -22,3 +22,130 @@
     background-color: var(--hover-clr);
     transition: 0.5s ease;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #141424;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.sidebar li.active, .sidebar li:hover {
+    background-color: #2a2a40;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.report-btn {
+    background-color: #3578e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.red { background-color: #c0392b; }
+.green { background-color: #27ae60; }
+.blue { background-color: #2980b9; }
+yellow { background-color: #f1c40f; }
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.incidents, .announcements {
+    flex: 1;
+    background-color: #2a2a40;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    color: #ccc;
+}
+
+.status.active {
+    color: red;
+}
+
+.status.closed {
+    color: green;
+}
+
+.view-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #3578e5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.announcement {
+    background-color: #1e1e30;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #3578e5;
+    border-radius: 5px;
+}
+
+.announcement h4 {
+    margin: 0 0 5px;
+}
+
+.announcement small {
+    color: #888;
+}
