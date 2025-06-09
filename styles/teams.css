@@ -1,0 +1,204 @@
+.content {
+    margin-left: 20px;
+    padding: 30px;
+    color:#fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color:#fff;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #1f2a3c;
+    border-radius: 8px;
+    padding: 8px 15px;
+    width: 350px;
+}
+
+.searchBar input {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.searchBar svg {
+    color: #9ca3af;
+    margin-right: 10px;
+}
+
+.teamContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.teamCard {
+    background-color: #1f2a3c;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.teamCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.teamCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+}
+
+.teamCard.inOperation::before {
+    background-color: #ef4444;
+}
+
+.teamCard.available::before {
+    background-color: #22c55e;
+}
+
+.teamCard.onStandby::before {
+    background-color: #f59e0b;
+}
+
+.teamHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamName {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.statusLabel {
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.inOperation .statusLabel {
+    background-color: #ef4444;
+    color: #fff;
+}
+
+.available .statusLabel {
+    background-color: #22c55e;
+    color: #fff;
+}
+
+.onStandby .statusLabel {
+    background-color: #f59e0b;
+    color: #fff;
+}
+
+.teamMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.teamLeader, .engine {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.incident {
+    background-color: #2f1f2e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.incidentTitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.incidentDetails {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #374151;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #4b5563;
+}
+
+.readyIndicator {
+    background-color: rgba(34, 197, 94, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: #22c55e;
+    font-weight: 500;
+}
+
+.standbyIndicator {
+    background-color: rgba(245, 158, 11, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: #f59e0b;
+    font-weight: 500;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
