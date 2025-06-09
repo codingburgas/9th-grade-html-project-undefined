@@ -37,3 +37,28 @@
     background-color: var(--hover-clr);
     transition: 0.4s ease;
 }
+
+.topbar {
+    background-color: var(--secondary-clr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.topbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  width: 36px;
+  height: 36px;
+}
+
+.topbar a:hover {
+    background-color: var(--hover-clr);
+    transition: 0.5s ease;
+}
