@@ -167,8 +167,9 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .btn:hover {
