@@ -8,6 +8,14 @@
     --accent-clr: #3B82F6;
 }
 
+.lightmode{
+    --base-clr: #F9FAFB;
+    --secondary-clr: #fff;
+    --hover-clr: #374151;
+    --text-clr: #1f2937;
+    --accent-clr: #3B82F6;
+}
+
 * {
     margin:0;
     padding:0;

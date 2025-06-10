@@ -47,16 +47,36 @@
     margin-bottom: 20px;
     color: #ffffff;
 }
-.topbar a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 7px;
-  width: 36px;
-  height: 36px;
+#toggleTheme {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-clr);
+    border:none;
 }
 
-.topbar a:hover {
+#toggleTheme:hover {
     background-color: var(--hover-clr);
     transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#toggleTheme svg {
+    fill:var(--text-clr);
+}
+
+#toggleTheme svg:first-child {
+    display:none;
+}
+
+.lightmode #toggleTheme svg:last-child {
+    display:none;
+}
+
+.lightmode #toggleTheme svg:first-child {
+    display:block;
 }
