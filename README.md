@@ -36,3 +36,11 @@ This project is an information system for fire safety management in a selected r
 
 - [📄 Project Documentation](link-to-doc)
 - [📊 Presentation Slides](link-to-ppt)
+
+Екип
+| Роля              | Име                       | 
+|-------------------|---------------------------|
+| SCRUM Trainer     | (Белослава Илиева)        |
+| Frontend Developer| (Калоян Колев)            |
+| Backend Developer | (Калоян Пожарлиев)        |
+| UI/UX Designer    | (Петър Стойков)           |
