@@ -1,4 +1,5 @@
 # Организация на пожарната безопасност
+![image](https://github.com/user-attachments/assets/67f33bf9-a61a-4aa9-b494-f2fba6a01efb)
 
 ## Описание на проекта
 
@@ -46,4 +47,3 @@
 | Frontend Developer| (Калоян Колев)            |
 | Backend Developer | (Калоян Пожарлиев)        |
 | UI/UX Designer    | (Петър Стойков)           |
-
