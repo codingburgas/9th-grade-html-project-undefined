@@ -1,12 +1,5 @@
 # UNDEFINED
 ![image](https://github.com/user-attachments/assets/1e79a51e-c894-482e-bcb3-33c96c920579)
-
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/ea8fdfea-d8ac-45d4-96b0-949ce78203f9)
-" alt="![Uploading image.png…]()
-" width="300"/>
-</p>
-
 ---
 
 ![Languages](https://img.shields.io/badge/language-HTML/CSS/JS-orange)
