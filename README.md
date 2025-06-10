@@ -30,9 +30,6 @@ This project is an information system for fire safety management in a selected r
 - Reporting and tracking incidents in real-time
 - Map-based location tracking of events and teams
 - Visual stats using charts and filters
-
-> Developed as part of a software project assignment for school use.
-
 ---
 
 ## 📚 Documentation and Presentation
