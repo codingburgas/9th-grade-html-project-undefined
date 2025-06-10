@@ -25,6 +25,14 @@
     flex: 1;
 }
 
+.messageCard h3 svg {
+    fill: var(--text-clr);
+}
+
+.messageCard h3 {
+    display:flex;
+}
+
 .messageCard {
     flex: 2;
     background-color: var(--secondary-clr);
@@ -95,7 +103,7 @@ textarea.formControl {
 }
 
 .btnDraft {
-    background-color: var(--buttonBg);
+    background-color: #374151;
     color: white;
 }
 
@@ -175,9 +183,4 @@ textarea.formControl {
 
 .tipsItem:last-child {
     border-bottom: none;
-}
-
-.tipsItem i {
-    color: #3b82f6;
-    margin-top: 3px;
 }
