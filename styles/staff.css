@@ -1,19 +1,20 @@
-.search-bar {
+.searchBar {
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin-right: 10px;
     width: 200px;
+    color:var(--secondary-clr);
 }
 
-.staff-table {
+.staffTable {
     margin-top: 20px;
-    background-color: #2a2a40;
+    background-color: var(--secondary-clr);
     border-radius: 10px;
     padding: 20px;
 }
 
-.status-badge {
+.statusBadge {
     padding: 5px 10px;
     border-radius: 12px;
     font-size: 12px;

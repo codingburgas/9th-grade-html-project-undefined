@@ -45,7 +45,7 @@
     height:50px;
     padding: 10px 15px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color:var(--text-clr);
 }
 #toggleTheme {
     padding: 0px;

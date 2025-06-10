@@ -11,7 +11,7 @@
 }
 
 .dashboardHeader h1 {
-    color:#fff;
+    color:var(--text-clr);
 }
 
 .headerActions {
@@ -26,7 +26,7 @@
 .searchBar {
     display: flex;
     align-items: center;
-    background-color: #1f2a3c;
+    background-color: var(--secondary-clr);
     border-radius: 8px;
     padding: 8px 15px;
     width: 250px;
@@ -35,7 +35,7 @@
 .searchBar input {
     background: transparent;
     border: none;
-    color: white;
+    color:var(--opp-clr);
     padding: 5px;
     width: 100%;
     outline: none;
@@ -53,8 +53,8 @@
 }
 
 .filterSelect {
-    background-color: #1f2a3c;
-    color: white;
+    background-color: var(--secondary-clr);
+    color:var(--text-clr);
     padding: 10px 15px;
     border: none;
     border-radius: 8px;

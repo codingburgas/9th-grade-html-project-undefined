@@ -1,7 +1,7 @@
 .content {
   margin-left: 20px;
   padding: 30px;
-  color:#fff;
+  color: var(--opp-clr);
 }
 
 .header {
@@ -12,7 +12,7 @@
 }
 
 .header h1 {
-  color:#fff;
+  color:var(--opp-clr);
 }
 
 .teamDetailsContainer {
@@ -22,7 +22,7 @@
 }
 
 .teamInfoCard {
-  background-color: #1f2a3c;
+  background-color: var(--secondary-clr);
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,6 @@
 .teamMetaItem svg {
   width: 20px;
   text-align: center;
-  fill: #9ca3af;
 }
 
 .teamMetaItem span {
@@ -92,10 +91,15 @@
 }
 
 .incident {
-  background-color: #2f1f2e;
+  background-color: var(--incident-clr);
   padding: 20px;
   border-radius: 8px;
   margin-top: 15px;
+  color: #fff;
+}
+
+.incident svg {
+  fill: #fff;
 }
 
 .incidentTitle {
@@ -135,7 +139,7 @@
 }
 
 .memberCard {
-  background-color: #1f2a3c;
+  background-color: var(--secondary-clr);
   border-radius: 12px;
   padding: 20px;
   display: flex;
@@ -185,7 +189,7 @@
 }
 
 .memberContact a {
-  color: var(--sidebarText);
+  color: var(--opp-clr);
   text-decoration: none;
   font-size: 0.85rem;
   display: flex;
@@ -194,13 +198,9 @@
   transition: all 0.3s ease;
 }
 
-.memberContact a:hover {
-  color: white;
-}
-
 .btn {
-  background-color: #374151;
-  color: white;
+  background-color: var(--secondary-clr);
+  color: var(--opp-clr);
   padding: 10px 15px;
   border: none;
   border-radius: 8px;
@@ -244,7 +244,6 @@
 
 .equipmentItem svg {
   font-size: 1.2rem;
-  color: #9ca3af;
 }
 
 .equipmentDetails {
@@ -267,4 +266,8 @@
 
 .statusInUse {
   color: #ef4444;
+}
+
+svg {
+  fill:var(--opp-clr);
 }

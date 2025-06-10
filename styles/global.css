@@ -6,6 +6,11 @@
     --hover-clr: #374151;
     --text-clr: #9198A4;
     --accent-clr: #3B82F6;
+    --opp-clr:#fff;
+    --incident-clr:#2f1f2e;
+    --border-clr: rgba(255, 255, 255, 0.1);
+    --chart-grid: rgba(255, 255, 255, 0.1);
+    --chart-bg: #1f2937;
 }
 
 .lightmode{
@@ -14,6 +19,11 @@
     --hover-clr: #374151;
     --text-clr: #1f2937;
     --accent-clr: #3B82F6;
+    --opp-clr:#111827;
+    --incident-clr:#2f1f2e;
+    --border-clr: rgba(0, 0, 0, 0.1);
+    --chart-grid: rgba(0, 0, 0, 0.1);
+    --chart-bg: #fff;
 }
 
 * {
