@@ -9,9 +9,6 @@
     top: 0;
     align-self: start;
 
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #sidebar ul {
