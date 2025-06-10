@@ -1,49 +1,54 @@
-# Организация на пожарната безопасност
-![image](https://github.com/user-attachments/assets/67f33bf9-a61a-4aa9-b494-f2fba6a01efb)
+# 🔥 Fire Safety System
 
-## Описание на проекта
-
-Проектът представлява уеб-базирана информационна система, подпомагаща работата на пожарната безопасност в избран регион. Основната цел е визуализация, управление и проследяване на служители, пожарни автомобили и произшествия.
-
-Системата предоставя възможност за:
-- Търсене и филтриране на служители и екипи.
-- Докладване на инциденти с посочване на локация и разпределен екип.
-- Проследяване на заетостта на екипите в реално време.
-- Визуализация на статистика чрез графики и карти.
-- Интерактивен потребителски интерфейс със смяна на цветова тема.
+<p align="center">
+  <img src="your-image-path/fire-logo.png" alt="Fire Safety Logo" width="300"/>
+</p>
 
 ---
 
-## Технологии
-
-- **HTML5 & CSS3** – изграждане на потребителския интерфейс
-- **JavaScript** – логика на приложението и обработка на данни
-- **GitHub** – контрол на версиите и публикуване на проекта
-
----
-
-## Функционалности
-
--  Данни за пожарните служби, служители и автомобили
--  Търсене и филтриране по име, екип, дата, тип на произшествие
--  Показване на състояние на служители: „Свободен“, „В произшествие“, „Очакване“
--  Изпращане на съобщения с готови шаблони или свободен текст
+![Languages](https://img.shields.io/badge/language-HTML/CSS/JS-orange)
+![Last Commit](https://img.shields.io/github/last-commit/yourusername/yourrepo)
+![Issues](https://img.shields.io/github/issues/yourusername/yourrepo)
+![Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=social)
+![Commits](https://img.shields.io/github/commit-activity/m/yourusername/yourrepo)
 
 ---
 
-## Как да стартирате проекта
+## 📌 Table of Contents
 
-1. Изтеглете файловете `index.html`, `style.css`, `script.js`.
-2. Отворете `index.html` в браузър
-3. Използвайте интерфейса за търсене, филтриране и регистрация на произшествия.
+- [📂 About the Project](#about-the-project)
+- [📚 Documentation and Presentation](#documentation-and-presentation)
+- [⚙️ Installation and Setup](#installation-and-setup)
+- [🛠️ Tech Stack](#tech-stack)
+- [👥 Contributors](#contributors)
 
 ---
 
-## Екип
+## 🔍 About the Project
 
-| Роля              | Име                       |
-|-------------------|---------------------------|
-| SCRUM Trainer     | (Белослава Илиева)        |
-| Frontend Developer| (Калоян Колев)            |
-| Backend Developer | (Калоян Пожарлиев)        |
-| UI/UX Designer    | (Петър Стойков)           |
+This project is an information system for fire safety management in a selected region. It includes data about:
+
+- Fire departments and centers
+- Firefighters and their assigned teams
+- Fire trucks and their availability
+- Reporting and tracking incidents in real-time
+- Map-based location tracking of events and teams
+- Visual stats using charts and filters
+
+> Developed as part of a software project assignment for school use.
+
+---
+
+## 📚 Documentation and Presentation
+
+- [📄 Project Documentation](link-to-doc)
+- [📊 Presentation Slides](link-to-ppt)
+
+---
+
+## ⚙️ Installation and Setup
+
+📥 **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/fire-safety-system
