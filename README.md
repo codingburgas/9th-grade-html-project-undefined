@@ -1,54 +1,131 @@
-# 🔥 Fire Safety System
+🔥 Fire Safety System
 
-<p align="center">
-  <img src="your-image-path/fire-logo.png" alt="Fire Safety Logo" width="300"/>
-</p>
 
----
 
-![Languages](https://img.shields.io/badge/language-HTML/CSS/JS-orange)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/yourrepo)
-![Issues](https://img.shields.io/github/issues/yourusername/yourrepo)
-![Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=social)
-![Commits](https://img.shields.io/github/commit-activity/m/yourusername/yourrepo)
 
----
 
-## 📌 Table of Contents
 
-- [📂 About the Project](#about-the-project)
-- [📚 Documentation and Presentation](#documentation-and-presentation)
-- [⚙️ Installation and Setup](#installation-and-setup)
-- [🛠️ Tech Stack](#tech-stack)
-- [👥 Contributors](#contributors)
 
----
+📌 Table of Contents
 
-## 🔍 About the Project
+📂 About the Project
 
-This project is an information system for fire safety management in a selected region. It includes data about:
+📚 Documentation and Presentation
 
-- Fire departments and centers
-- Firefighters and their assigned teams
-- Fire trucks and their availability
-- Reporting and tracking incidents in real-time
-- Map-based location tracking of events and teams
-- Visual stats using charts and filters
+⚙️ Installation and Setup
 
-> Developed as part of a software project assignment for school use.
+🛠️ Tech Stack
 
----
+👥 Contributors
 
-## 📚 Documentation and Presentation
+🔍 About the Project
 
-- [📄 Project Documentation](link-to-doc)
-- [📊 Presentation Slides](link-to-ppt)
+The project is an information system that supports the daily operations of fire departments within a specific region. It includes modules for:
 
----
+Managing fire stations and employee teams
 
-## ⚙️ Installation and Setup
+Keeping an updated registry of fire trucks and their availability
 
-📥 **Clone the repository:**
+Submitting and tracking incident reports with GPS coordinates
 
-```bash
-git clone https://github.com/yourusername/fire-safety-system
+Assigning teams and vehicles to respond to events
+
+Visualizing activity on an interactive map
+
+Displaying statistics through charts and graphs
+
+Filtering and searching incidents by type, time, and location
+
+Monitoring the current status of each team (available, on duty, waiting)
+
+📚 Documentation and Presentation
+
+📄 Technical Documentation
+
+📈 Presentation Slides
+
+⚙️ Installation and Setup
+
+Simply open the main HTML file in your browser to launch the system.
+
+You can edit and preview your code using a modern text editor like Visual Studio Code.
+
+No installation of frameworks or dependencies is required.
+
+🛠️ Tech Stack
+
+🧰 Tools:
+
+💻 Languages:
+
+HTML5
+
+CSS3
+
+JavaScript
+
+💬 Communication:
+
+Microsoft Teams
+
+Discord (optional)
+
+📑 Documentation:
+
+Microsoft Word
+
+PowerPoint
+
+🎨 Design:
+
+Adobe Photoshop
+
+Figma
+
+👥 Contributors
+
+Name
+
+Role
+
+Иван Иванов
+
+SCRUM Trainer
+
+Георги Георгиев
+
+Frontend Developer
+
+Мария Петрова
+
+Backend Developer
+
+Даниела Йорданова
+
+Designer
+
+📆 Project Timeline
+
+Start Date
+
+End Date
+
+19.05.2025
+
+11.06.2025
+
+📊 Features Overview
+
+✅ Real-time incident tracking
+
+✅ Assign and manage fire teams and vehicles
+
+✅ Filter and sort events by date, type, and team
+
+✅ Dark/light theme toggle
+
+✅ Live interactive map with Leaflet.js
+
+✅ Dynamic charts using Chart.js
+
+✅ Easy-to-use interface with responsive layout
