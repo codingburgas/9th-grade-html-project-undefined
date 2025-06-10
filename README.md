@@ -1,4 +1,3 @@
-# 9-grade-html-css-js-project
 # Организация на пожарната безопасност
 
 ## Описание на проекта
@@ -47,3 +46,4 @@
 | Frontend Developer| (Калоян Колев)            |
 | Backend Developer | (Калоян Пожарлиев)        |
 | UI/UX Designer    | (Петър Стойков)           |
+
