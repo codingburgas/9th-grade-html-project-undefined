@@ -16,6 +16,7 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .dashboard {
@@ -90,6 +91,7 @@ th, td {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .announcements h3 {
